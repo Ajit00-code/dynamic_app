@@ -1,0 +1,32 @@
+.header{
+
+  display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 4px #afafaf;
+
+}
+
+/* Form CSS */
+
+.SearchBarContainer{
+  display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.SearchInputContainer input[type="text"]{
+
+  padding: 5px 15px;
+    width: 200px;
+}
+
+.AddingredientBtnContainer{
+  display: flex;
+
+  button{
+
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+}
