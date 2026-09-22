@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import Header from './components/Header'
 import ReceipeForm from './components/ReceipeForm'
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
   const [isimportant, setIsImportant] = useState(1);
   const [counter, setCounter] = useState(0);
 
-  
+  /*
   return (
     <>
     
@@ -22,6 +23,11 @@ function App() {
       <ReceipeForm />
 
     </>
+  )
+    */
+
+  return (
+    <ProfileCard />
   )
   
 
